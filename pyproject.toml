@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     # The rekuest runtime: what `run(app)` serves the actions with, and what the tests
     # call them through (arkitekt.testing).
-    "arkitekt[rekuest]>=10.0.1",
+    "arkitekt[rekuest]>=10.0.2",
 ]
 
 [tool.semantic_release]
