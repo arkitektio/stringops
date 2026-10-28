@@ -9,7 +9,7 @@ from typing import Generator, List, Literal
 from arkitekt import App, bsx, run
 
 #: Raised by semantic-release on every release (see pyproject.toml).
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 app = App("stringops", __version__, author="jhnnsrs")
 
