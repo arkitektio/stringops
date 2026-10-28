@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.0 (2026-10-28)
+
+### Features
+
+- Ask for the scopes the clients need, on arkitekt 10
+  ([`8cef5e1`](https://github.com/arkitektio/stringops/commit/8cef5e19e2df1028168f4378eafdbc0af981b929))
+
+
 ## v0.1.1 (2026-10-28)
 
 ### Bug Fixes
