@@ -1,0 +1,19 @@
+build_command:
+- docker
+- buildx
+- build
+- --platform
+- '{platform}'
+- '{output}'
+- -t
+- '{tag}'
+- -f
+- '{dockerfile}'
+- .
+capabilities: []
+description: String operations, on the CPU
+dockerfile: Dockerfile
+platforms:
+- linux/amd64
+- linux/arm64
+selectors: []

@@ -1,0 +1,6 @@
+# Hiding Arkitekt Credential files from git
+*.json
+*.temp
+cache/
+servers/
+rekuest_journal.db*

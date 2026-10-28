@@ -9,5 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-# arkitekt run-time cache (device id, fakts sessions)
-.arkitekt/
+# arkitekt run-time state (device id, fakts sessions, the task journal); the flavours
+# in .arkitekt/flavours are source: the release builds its images from them
+.arkitekt/*.json
+.arkitekt/cache/
+.arkitekt/servers/
+.arkitekt/rekuest_journal.db*
