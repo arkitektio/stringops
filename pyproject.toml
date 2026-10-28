@@ -8,26 +8,10 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "arkitekt>=9.0",
-    "fakts",
-    "kabinet",
-    "koil",
-    "rath",
-    "rekuest",
+    # The rekuest runtime: what `run(app)` serves the actions with, and what the tests
+    # call them through (arkitekt.testing).
+    "arkitekt[rekuest]>=9.1",
 ]
-
-[tool.uv.sources]
-arkitekt = { path = "../../packages/arkitekt", editable = true }
-rekuest = { path = "../../packages/rekuest", editable = true }
-fakts = { path = "../../packages/fakts", editable = true }
-kabinet = { path = "../../packages/kabinet", editable = true }
-koil = { path = "../../packages/koil", editable = true }
-rath = { path = "../../packages/rath", editable = true }
-
-[tool.uv]
-# The sibling checkouts derive their version from git tags and can sit below the
-# pins arkitekt declares while unreleased work is in progress; take them anyway.
-override-dependencies = ["fakts", "kabinet", "koil", "rath", "rekuest"]
 
 [tool.semantic_release]
 version_variables = ["app.py:__version__"]
