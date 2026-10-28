@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.1 (2026-10-28)
+
+### Bug Fixes
+
+- Record the scopes a run asks for (arkitekt 10.0.1)
+  ([`efae673`](https://github.com/arkitektio/stringops/commit/efae673c2b2aaa3f8e23b7975de3e529af2f382b))
+
+
 ## v0.2.0 (2026-10-28)
 
 ### Features
