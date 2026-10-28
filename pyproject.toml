@@ -1,0 +1,45 @@
+[project]
+name = "stringops"
+version = "0.1.0"
+description = "Simple string operations as an Arkitekt app"
+readme = "README.md"
+authors = [
+    { name = "Johannes Roos", email = "jhnnsrs@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "arkitekt>=9.0",
+    "fakts",
+    "kabinet",
+    "koil",
+    "rath",
+    "rekuest",
+]
+
+[tool.uv.sources]
+arkitekt = { path = "../../packages/arkitekt", editable = true }
+rekuest = { path = "../../packages/rekuest", editable = true }
+fakts = { path = "../../packages/fakts", editable = true }
+kabinet = { path = "../../packages/kabinet", editable = true }
+koil = { path = "../../packages/koil", editable = true }
+rath = { path = "../../packages/rath", editable = true }
+
+[tool.uv]
+# The sibling checkouts derive their version from git tags and can sit below the
+# pins arkitekt declares while unreleased work is in progress; take them anyway.
+override-dependencies = ["fakts", "kabinet", "koil", "rath", "rekuest"]
+
+[tool.semantic_release]
+version_variables = ["app.py:__version__"]
+commit_message = "chore(release): {version} [skip ci]"
+tag_format = "v{version}"
+allow_zero_version = true
+
+[tool.semantic_release.branches.release]
+match = "main"
+prerelease = false
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
