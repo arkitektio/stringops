@@ -4,7 +4,8 @@ The app is a declaration: who it is, and what it offers. `arkitekt run dev`
 finds it in this module (as `app`) and runs it; so does `python app.py`.
 """
 
-from typing import Generator, List, Literal
+from typing import Literal
+from collections.abc import Generator
 
 from arkitekt import App, bsx, run
 
@@ -207,7 +208,7 @@ def length(text: str) -> int:
 
 
 @app.action
-def split(text: str, separator: str = " ") -> List[str]:
+def split(text: str, separator: str = " ") -> list[str]:
     """Split
 
     Splits {{text}} on {{separator}}
@@ -228,7 +229,7 @@ def split(text: str, separator: str = " ") -> List[str]:
 
 
 @app.action
-def join(parts: List[str], separator: str = " ") -> str:
+def join(parts: list[str], separator: str = " ") -> str:
     """Join
 
     Joins {{parts}} with {{separator}}
@@ -286,8 +287,7 @@ def words(text: str) -> Generator[str, None, None]:
     str
         Each word, in order
     """
-    for word in text.split():
-        yield word
+    yield from text.split()
 
 
 if __name__ == "__main__":
