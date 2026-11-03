@@ -10,7 +10,7 @@ from collections.abc import Generator
 from arkitekt import App, bsx, run
 
 #: Raised by semantic-release on every release (see pyproject.toml).
-__version__ = "0.2.5"
+__version__ = "0.2.6"
 
 app = App("stringops", __version__, author="jhnnsrs")
 

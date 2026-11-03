@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.2.6 (2026-11-03)
+
+### Bug Fixes
+
+- Build on arkitekt 13.1.0
+  ([`046993b`](https://github.com/arkitektio/stringops/commit/046993b0bb55b8563e9900281455a69473bb192c))
+
+### Refactoring
+
+- Adopt Python 3.11 typing (X | None, builtin generics, collections.abc)
+  ([`1ff2558`](https://github.com/arkitektio/stringops/commit/1ff25580d0484ba88f246ce40cb9a5c32d033a34))
+
+
 ## v0.2.5 (2026-11-01)
 
 ### Bug Fixes
