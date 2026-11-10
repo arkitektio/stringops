@@ -1,5 +1,9 @@
 # stringops
 
+<!-- arkitekt:badge -->
+[![Open in Arkitekt](https://arkitekt.live/img/badge/open-in-arkitekt.svg)](https://arkitekt.live/deeplink?orkestrator=%2Fdo%2Fv1%2Frepo.install%3Fsource%3Doci%253Aghcr.io%252Farkitektio%252Fstringops)
+<!-- /arkitekt:badge -->
+
 Simple string operations as an Arkitekt app, written in the `App` pattern:
 the app is a declaration (`app = App(...)`, `@app.action`) and running it is
 a separate step (`run(app)` or `arkitekt run dev`).
