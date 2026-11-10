@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.7 (2026-11-10)
+
+### Bug Fixes
+
+- **deps**: Arkitekt 14.1.0 and mikro 13, with the Open in Arkitekt badge
+  ([`0594f42`](https://github.com/arkitektio/stringops/commit/0594f42c83261bf90f303f054ff7a240a2d8f763))
+
+
 ## v0.2.6 (2026-11-03)
 
 ### Bug Fixes
