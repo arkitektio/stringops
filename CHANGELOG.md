@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.8 (2026-11-15)
+
+### Bug Fixes
+
+- **deps**: Arkitekt 16, on agent protocol 2
+  ([`dd1c132`](https://github.com/arkitektio/stringops/commit/dd1c132fa297d7c89ee0c8a108e9a109550d2f99))
+
+
 ## v0.2.7 (2026-11-10)
 
 ### Bug Fixes
