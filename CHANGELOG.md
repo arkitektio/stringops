@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.10 (2026-11-15)
+
+### Bug Fixes
+
+- **deps**: Arkitekt 17 and arkitekt-spec 11
+  ([`2724820`](https://github.com/arkitektio/stringops/commit/2724820d358b8059c0088093dbbdd9073f91f6fd))
+
+
 ## v0.2.9 (2026-11-15)
 
 ### Bug Fixes
