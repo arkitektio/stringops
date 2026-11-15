@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.9 (2026-11-15)
+
+### Bug Fixes
+
+- **deps**: Rekuest 15.0.1 and arkitekt-runtime 10.0.1
+  ([`3812ac8`](https://github.com/arkitektio/stringops/commit/3812ac8e85dad7cf0912d990a626db3ff064ce73))
+
+
 ## v0.2.8 (2026-11-15)
 
 ### Bug Fixes
