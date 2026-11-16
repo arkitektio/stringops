@@ -21,9 +21,9 @@ Case = Literal["upper", "lower", "title", "swap"]
 app.blok(
     "stringops",
     bsx("""
-    <Html>
+    <Blok kind="agent" context="panel">
       <Text text="Simple string operations" />
-    </Html>
+    </Blok>
     """),
     description="What the app offers.",
 )
