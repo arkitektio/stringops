@@ -2,6 +2,19 @@
 
 <!-- version list -->
 
+## v0.2.11 (2026-11-16)
+
+### Bug Fixes
+
+- Bloks are self-contained <Blok kind context> trees
+  ([`9553313`](https://github.com/arkitektio/stringops/commit/9553313faa7f1558809800611caa1eccf4f55c59))
+
+### Build System
+
+- Lock arkitekt 18
+  ([`dd2d8bb`](https://github.com/arkitektio/stringops/commit/dd2d8bb286facc13314cc96d6782165d92705131))
+
+
 ## v0.2.10 (2026-11-15)
 
 ### Bug Fixes
