@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.12 (2026-11-24)
+
+### Bug Fixes
+
+- Build on arkitekt 18.5.2, rekuest 18, arkitekt-spec 13 and mikro 14.2
+  ([`b07bd66`](https://github.com/arkitektio/stringops/commit/b07bd6613bd958f8c46ae850451fc7934738727f))
+
+
 ## v0.2.11 (2026-11-16)
 
 ### Bug Fixes
