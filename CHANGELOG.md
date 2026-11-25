@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v0.2.13 (2026-11-25)
+
+### Bug Fixes
+
+- Runs on arkitekt 19
+  ([`d40add0`](https://github.com/arkitektio/stringops/commit/d40add020d42132f9487ce8cefc53eebe6300d84))
+
+
 ## v0.2.12 (2026-11-24)
 
 ### Bug Fixes
